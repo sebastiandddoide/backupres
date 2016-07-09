@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html ng-app="myApp">
+<head>
+	<title>Test Post</title>
+</head>
+<body>
+	<div class="container" ng-controller="AppCtrl">
+		<h1>Object</h2>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>f1</th>
+					<th>f2</th>
+					<th>f3</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input class="form-control" ng-model="object.f1"/></td>
+					<td><input class="form-control" ng-model="object.f2"/></td>
+					<td><input class="form-control" ng-model="object.f3"/></td>
+					<td><button class="btn btn-primary" ng-click="doPost()">Post</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script src="controllers/controller.js"></script>
+</body>
+</html>

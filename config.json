@@ -1,0 +1,5 @@
+{
+	"http" : {"port": 3004, "serviceUri": "/servicio"},
+	"database" : {"host": "localhost", "user" : "root", "password": "", "databasename" : "nuevabase"},
+	"auth" : {"user" : "seba", "password" : "clave123"}
+}
